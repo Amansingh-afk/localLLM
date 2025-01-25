@@ -33,4 +33,19 @@
 
 ## Usage
 
-You can now use the `localllm` command from anywhere in your terminal. For help, run:
+You can now use the `localllm` command from anywhere in your terminal.
+
+ For help, run:   
+```bash
+    localllm help
+```
+
+To start the services, run:
+ ```bash
+    localllm serve
+```
+
+To stop the services, run:
+```bash 
+    localllm kill
+```
