@@ -10,7 +10,7 @@ function display_help() {
     echo ""
     echo "Available Commands:"
     echo "  serve       Start localllm services"
-    echo "  halt        Stop localllm services"
+    echo "  kill        Stop localllm services"
     echo "  pull        Pull a model from a registry"
     echo "  run         Run a model"
     echo "  stop        Stop a running model"
@@ -50,7 +50,7 @@ case $COMMAND in
         echo "Starting the localllm services..."
         docker compose start
         ;;
-    halt)
+    kill)
         echo "Stopping the localllm services..."
         docker compose stop
         ;;
